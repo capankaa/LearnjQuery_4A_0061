@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #4f46e5;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #4338ca;
+}
+
+li {
+    margin-top: 10px;
+    background: #f8fafc;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hapus {
+    background: #ef4444;
+}
+
+.hapus:hover {
+    background: #dc2626;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.progress {
+    color: #000000;
+}
+
+li {
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+.edit {
+    background: #ffbb00;
+    color: rgb(255, 255, 255);
+}
+
+.edit:hover {
+    background: #dba100;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+select {
+    cursor: pointer;
+}
+
+#inputTanggal {
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
